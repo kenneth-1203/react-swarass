@@ -1,6 +1,6 @@
 import Button from "@/components/button";
 import { Phone, Send } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
