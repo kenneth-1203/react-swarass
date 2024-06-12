@@ -1,13 +1,12 @@
 import Button from "@/components/button";
-import { Send } from "lucide-react";
-import React from "react";
-import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { Phone, Send } from "lucide-react";
+import React, { useState } from "react";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  };
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
 
   return (
     <section id="Contact" className="px-8">
@@ -18,12 +17,33 @@ const Contact = () => {
       <div className="text-md grid grid-cols-1 gap-4 sm:gap-0 sm:grid-cols-3 max-w-[50rem] mx-auto mt-8">
         <div className="flex flex-col text-center">
           <p className="font-bold uppercase mb-2">Call us</p>
-          <a className="font-light" href="tel:+60162334339">
-            Adeline - 016&nbsp;233&nbsp;4339
-          </a>
-          <a className="font-light" href="tel:+60123341117">
-            Ian - 012&nbsp;334&nbsp;1117
-          </a>
+          <div className="flex gap-2 justify-center font-light">
+            <p className="w-20">Adeline</p>
+            <a className="text-muted-foreground" href="tel:+60162334339">
+              <Phone className="w-5 h-5" />
+            </a>
+            <a className="text-muted-foreground" target="_blank" href="https://wa.link/o16cse">
+              <FaWhatsapp className="w-5 h-5" />
+            </a>
+          </div>
+          <div className="flex gap-2 justify-center font-light">
+            <p className="w-20">Ian</p>
+            <a className="text-muted-foreground" href="tel:+60189433995">
+              <Phone className="w-5 h-5" />
+            </a>
+            <a className="text-muted-foreground" target="_blank" href="https://wa.link/pc1s18">
+              <FaWhatsapp className="w-5 h-5" />
+            </a>
+          </div>
+          <div className="flex gap-2 justify-center font-light">
+            <p className="w-20">Desmond</p>
+            <a className="text-muted-foreground" href="tel:+60123341117">
+              <Phone className="w-5 h-5" />
+            </a>
+            <a className="text-muted-foreground" target="_blank" href="https://wa.link/872heh">
+              <FaWhatsapp className="w-5 h-5" />
+            </a>
+          </div>
         </div>
         <div className="flex flex-col text-center">
           <p className="text-md font-bold uppercase">Email</p>
@@ -52,7 +72,10 @@ const Contact = () => {
           className="object-contain"
         />
       </div>
-      <form className="space-y-4 max-w-[50rem] mx-auto" onSubmit={handleSubmit}>
+      <form
+        className="space-y-4 max-w-[50rem] mx-auto"
+        action={`mailto:adeline@swarass.asia?subject=${subject}&body=${text}`}
+      >
         <div className="flex items-center mx-auto">
           <div className="triangle-r w-3 h-4 bg-primary mr-3"></div>
           <label
@@ -65,6 +88,8 @@ const Contact = () => {
             className="shadow px-4 py-2 w-full outline-primary border-black/5 border"
             type="email"
             id="email"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
             required
           />
         </div>
@@ -95,6 +120,8 @@ const Contact = () => {
             className="shadow px-4 py-2 w-full outline-primary border-black/5 border"
             type="text"
             id="subject"
+            onChange={(e) => setSubject(e.target.value)}
+            value={subject}
             required
           />
         </div>
@@ -103,6 +130,8 @@ const Contact = () => {
           <textarea
             className="shadow px-4 py-2 w-full min-h-32 outline-primary border-black/5 border"
             placeholder="What would you like to say to us?"
+            onChange={(e) => setText(e.target.value)}
+            value={text}
             required
           />
         </div>
@@ -116,21 +145,7 @@ const Contact = () => {
               <FaFacebookF className="w-6 h-6 hover:text-foreground transition-colors" />
             </a>
             <a
-              href="http://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaXTwitter className="w-6 h-6 hover:text-foreground transition-colors" />
-            </a>
-            <a
-              href="http://pinterest.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaPinterestP className="w-6 h-6 hover:text-foreground transition-colors" />
-            </a>
-            <a
-              href="http://instagram.com"
+              href="http://instagram.com/swarass_production?igsh=dzMyb2k1bHUxb3Ry"
               target="_blank"
               rel="noopener noreferrer"
             >

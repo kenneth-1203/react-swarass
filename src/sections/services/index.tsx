@@ -32,7 +32,7 @@ const cards = [
   {
     heading: "Creative",
     description:
-      "You can count on us to produce all necessary creative writing and graphics including the production of posters, set pieces and decorations necessary to make the event unique and memorable.",
+      "You can count on us to produce all necessary creative writing and graphics including the production of set pieces, booths and decorations necessary to make the event unique and memorable.",
     imgSrc: "card-2.jpg",
   },
   {

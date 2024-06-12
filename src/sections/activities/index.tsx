@@ -6,7 +6,7 @@ import { INVIEW_ANIMATION_VARIANTS } from "../../lib/animations";
 const items = [
   {
     heading: "Dinner & Get Togethers",
-    description: `We understand that organization dinners are a way for various companies to show their appreciation for the clients, highlight important company affairs and just have a good time socializing and being together.`,
+    description: `We understand that organization dinners are a way for various companies to show their appreciation for the clients and staffs, highlight important company annual dinners and just have a good time socializing and being together.`,
     imgSrc: "card-1.jpg",
   },
   {
@@ -21,7 +21,7 @@ const items = [
   },
   {
     heading: "Conference",
-    description: `Conference, convention, meeting or seminar - these types of events are commonly held to introduce new products, share knowledge, announce fresh sales goals, provide periodic reviews as well as revealing of new incentive schemes`,
+    description: `Conference, convention, meeting or seminar - these type of events are commonly held to introduce new products, share knowledge, announce fresh sales goals, provide periodic reviews as well as revealing of new incentive schemes`,
     imgSrc: "card-1.jpg",
   },
   {

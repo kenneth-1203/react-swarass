@@ -2,12 +2,12 @@ export const EventConsultancy = () => {
   return (
     <>
       <p className="font-medium text-justify">
-        When it comes to Event Consultancy, we are able to provide consultation
-        and management from the ground up. Providing our clients with customized
-        solutions and concepts for events that meet the high standards of great
-        memorable events. Our versatile and hands-on approach ensures that the
-        execution of the event will be seamless and professional. Here are some
-        of the events we can help organise:
+        When it comes to Event Consultancy, we are able to provide consultation,
+        management and concept from the ground up. Providing our clients with
+        customized solutions and concepts for events that meet the high
+        standards of great memorable events. Our versatile and hands-on approach
+        ensures that the execution of the event will be seamless and
+        professional. Here are some of the events we can help organise:
       </p>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-4">
         <li className="flex items-center gap-2">
@@ -104,10 +104,10 @@ export const TechnicalManagement = () => {
     <>
       <p className="font-medium text-justify">
         Every event needs to have excellent technical management in order to
-        bring out the best in the event. That is why we are constantly looking
-        out for new and innovative technologies that will help improve the
-        presentation and display of our client&apos;s events. Here is a list of
-        services we provide:
+        bring out the best effects to compliment the setup in the event. That is
+        why we are constantly looking out for new and innovative technologies
+        that will help improve the presentation and display of our client&apos;s
+        events. Here is a list of services we provide:
       </p>
       <ul className="grid grid-cols-1 gap-4 py-4">
         <li className="flex items-center gap-2">
@@ -145,14 +145,18 @@ export const Exhibition = () => {
       <p className="font-medium text-justify">
         Over the years we have helped our client create memorable booth designs
         that make them stand out during their exhibitions. These designs are
-        also budget-friendly and are firmly focus on providing not just great
+        also budget-friendly and are firmly focused on providing not just great
         looks but reasonable pinch to your wallets as well. We provide the
         following exhibition services:
       </p>
       <ul className="grid grid-cols-1 gap-4 py-4">
         <li className="flex items-center gap-2">
           <span className="flex h-3 w-2 triangle-r bg-primary"></span>
-          Booth DesignBooth Logistics
+          Booth Design
+        </li>
+        <li className="flex items-center gap-2">
+          <span className="flex h-3 w-2 triangle-r bg-primary"></span>
+          Booth Logistics
         </li>
         <li className="flex items-center gap-2">
           <span className="flex h-3 w-2 triangle-r bg-primary"></span>
