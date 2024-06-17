@@ -27,25 +27,25 @@ const cards = [
     heading: "Technical",
     description:
       "You can't have great events without the technical know-how. This includes lighting, special effects, decorative production, construction and manufacturing as well as event features and highlights.",
-    imgSrc: "card-1.jpg",
+    imgSrc: "images/cards/card-1.jpg",
   },
   {
     heading: "Creative",
     description:
       "You can count on us to produce all necessary creative writing and graphics including the production of set pieces, booths and decorations necessary to make the event unique and memorable.",
-    imgSrc: "card-2.jpg",
+    imgSrc: "images/cards/card-2.jpg",
   },
   {
     heading: "Client Servicing",
     description:
       "We are with you every step of the way from our initial production till the post event debriefing.",
-    imgSrc: "card-3.jpg",
+    imgSrc: "images/cards/card-3.jpg",
   },
   {
     heading: "Production",
     description:
       "We'll scout several locations before getting to the nitty gritty of creating all the necessary elements, event features and items needed to make our events a success.",
-    imgSrc: "card-4.jpg",
+    imgSrc: "images/cards/card-4.jpg",
   },
 ];
 
@@ -105,7 +105,7 @@ const Services = () => {
               viewport={INVIEW_ANIMATION_VIEWPORT}
             >
               <Card
-                imgSrc={`images/${card.imgSrc}`}
+                imgSrc={card.imgSrc}
                 heading={card.heading}
                 description={card.description}
               />
