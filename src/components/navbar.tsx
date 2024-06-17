@@ -62,7 +62,7 @@ const Navbar = () => {
         initial={{ y: -80 }}
         animate={shouldHideNav ? { y: -80 } : { y: 0 }}
         transition={{ ease: "easeInOut", duration: 0.2 }}
-        className="hidden md:flex items-center p-4 backdrop-blur-md w-full border-b border-foreground/5"
+        className="hidden md:flex items-center p-4 bg-background w-full border-b border-foreground/5"
       >
         <div className="relative w-12 h-12 ml-6 xl:ml-24">
           <img

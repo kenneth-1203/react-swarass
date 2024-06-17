@@ -1,5 +1,3 @@
-import Carousel from "@/components/carousel";
-
 const Gallery = () => {
   return (
     <section
@@ -11,20 +9,11 @@ const Gallery = () => {
           Gallery
           <span className="flex mx-auto h-1.5 w-1/2 bg-primary my-2" />
         </h1>
-        <Carousel
-          images={[
-            "images/carousel-1.png",
-            "images/carousel-2.png",
-            "images/carousel-3.png",
-            "images/carousel-4.png",
-            "images/carousel-5.png",
-            "images/carousel-6.png",
-            "images/carousel-7.png",
-            "images/carousel-8.png",
-            "images/carousel-9.png",
-            "images/carousel-10.png",
-          ]}
-        />
+        <div className="rounded-3xl p-1">
+          <video className="h-dvh object-cover w-full" muted loop autoPlay playsInline>
+            <source src="videos/bg-video.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </section>
   );

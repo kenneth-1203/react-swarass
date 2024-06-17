@@ -66,7 +66,6 @@ const Carousel = ({ images }: { images: string[] }) => {
       </motion.div>
 
       <Dots images={images} imgIndex={imgIndex} setImgIndex={setImgIndex} />
-      <GradientEdges />
     </div>
   );
 };
@@ -124,15 +123,6 @@ const Dots = ({
         );
       })}
     </div>
-  );
-};
-
-const GradientEdges = () => {
-  return (
-    <>
-      <div className="pointer-events-none absolute bottom-0 left-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-r from-white/50 to-white/0" />
-      <div className="pointer-events-none absolute bottom-0 right-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-l from-white/50 to-white/0" />
-    </>
   );
 };
 
