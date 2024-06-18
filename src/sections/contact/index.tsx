@@ -22,7 +22,11 @@ const Contact = () => {
             <a className="text-muted-foreground" href="tel:+60162334339">
               <Phone className="w-5 h-5" />
             </a>
-            <a className="text-muted-foreground" target="_blank" href="https://wa.link/o16cse">
+            <a
+              className="text-muted-foreground"
+              target="_blank"
+              href="https://wa.link/o16cse"
+            >
               <FaWhatsapp className="w-5 h-5" />
             </a>
           </div>
@@ -31,7 +35,11 @@ const Contact = () => {
             <a className="text-muted-foreground" href="tel:+60189433995">
               <Phone className="w-5 h-5" />
             </a>
-            <a className="text-muted-foreground" target="_blank" href="https://wa.link/pc1s18">
+            <a
+              className="text-muted-foreground"
+              target="_blank"
+              href="https://wa.link/pc1s18"
+            >
               <FaWhatsapp className="w-5 h-5" />
             </a>
           </div>
@@ -40,7 +48,11 @@ const Contact = () => {
             <a className="text-muted-foreground" href="tel:+60123341117">
               <Phone className="w-5 h-5" />
             </a>
-            <a className="text-muted-foreground" target="_blank" href="https://wa.link/872heh">
+            <a
+              className="text-muted-foreground"
+              target="_blank"
+              href="https://wa.link/872heh"
+            >
               <FaWhatsapp className="w-5 h-5" />
             </a>
           </div>
@@ -60,7 +72,8 @@ const Contact = () => {
         <div className="text-center">
           <p className="text-md font-bold uppercase">Address</p>
           <p className="font-light">
-            No.7, Jalan Rajawali 1A Bandar Puchong Jaya 47100 Puchong Selangor
+            No. 10-1 , Jalan Jade Hills Utama 1/1, Commerce Village Jade Hills,
+            43000, Kajang, Selangor
           </p>
         </div>
       </div>
