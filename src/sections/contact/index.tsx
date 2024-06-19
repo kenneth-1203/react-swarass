@@ -31,7 +31,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex gap-2 justify-center font-light">
-            <p className="w-20">Ian</p>
+            <p className="w-20">Igbal</p>
             <a className="text-muted-foreground" href="tel:+60189433995">
               <Phone className="w-5 h-5" />
             </a>
@@ -62,11 +62,11 @@ const Contact = () => {
           <a className="font-light" href="mailto:adeline@swarass.asia">
             adeline@swarass.asia
           </a>
-          <a className="font-light" href="mailto:ian@swarass.asia">
-            ian@swarass.asia
+          <a className="font-light" href="mailto:igbal@swarass.asia">
+            igbal@swarass.asia
           </a>
-          <a className="font-light" href="mailto:info@swarass.asia">
-            info@swarass.asia
+          <a className="font-light" href="mailto:desmond@swarass.asia">
+            desmond@swarass.asia
           </a>
         </div>
         <div className="text-center">
